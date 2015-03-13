@@ -8,6 +8,7 @@
             "email": "nek@srez.org"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii": "1.1.16",
