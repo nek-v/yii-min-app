@@ -10,7 +10,7 @@ return CMap::mergeArray(
         'import'    => array(
             'application.models.*',
             'application.components.*',
-            'vendor.yiiext.econsolecommand.*'
+            'vendor.nek-v.yii-econsolecommand.*'
         ),
         'commandMap'    => array(
             'migrate'    =>array(
