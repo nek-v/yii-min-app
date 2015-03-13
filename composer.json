@@ -1,0 +1,35 @@
+{
+    "name": "nek-v/yii-min-app",
+    "description": "Minimum starting applications on Yii",
+    "keywords": ["Yii", "minimal", "application"],
+    "authors": [
+        {
+            "name": "nek-v",
+            "email": "nek@srez.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii": "1.1.16",
+        "yiiext/imperavi-redactor-widget": "v1.3.8",
+        "yiiext/migrate-command": "0.8.0",
+        "yiiext/econsolecommand": "0.0.1",
+        "crisu83/yiistrap": "1.3.0"
+    },
+    "config": {
+        "vendor-dir": "protected/vendor"
+    },
+    "repositories":[
+        {
+            "type": "package",
+            "package": {
+                "name": "yiiext/econsolecommand",
+                "version": "0.0.1",
+                "dist": {
+                    "url": "http://www.yiiframework.com/extension/econsolecommand/files/EConsoleCommand.php.gz",
+                    "type": "gzip"
+                }
+            }
+        }
+    ]
+}
