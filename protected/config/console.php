@@ -1,25 +1,25 @@
 <?php
 
 return CMap::mergeArray(
-    CMap::mergeArray(array(
+    CMap::mergeArray([
         'basePath'  => dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-        'preload'   => array('log'),
-        'aliases' => array(
+        'preload'   => ['log'],
+        'aliases' => [
             'vendor'    => realpath(__DIR__ . '/../vendor')
-        ),
-        'import'    => array(
+        ],
+        'import'    => [
             'application.models.*',
             'application.components.*',
             'vendor.nek-v.yii-econsolecommand.*'
-        ),
-        'commandMap'    => array(
-            'migrate'    =>array(
+        ],
+        'commandMap'    => [
+            'migrate'    =>[
                 'class'             =>'vendor.yiiext.migrate-command.EMigrateCommand',
-                'migrationTable'    =>'{{migration_history}}',
+                'migrationTable'    =>'{{migrations}}',
                 'connectionID'      =>'db'
-            )
-        )
-    ),
+            ]
+        ]
+    ],
     require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'components.php')
     ),
     CMap::mergeArray(

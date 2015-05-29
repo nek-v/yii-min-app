@@ -1,16 +1,16 @@
 <?php
 
-return array(
-    'components' => array(
-        'errorHandler' => array(
+return [
+    'components' => [
+        'errorHandler' => [
             'errorAction' => 'error/index',
-        ),
-        'urlManager' => array(
+        ],
+        'urlManager' => [
             'urlFormat' => 'path',
             'showScriptName' => false,
-        ),
-        'bootstrap' => array(
+        ],
+        'bootstrap' => [
             'class' => 'bootstrap.components.TbApi',
-        )
-    )
-);
+        ]
+    ]
+];

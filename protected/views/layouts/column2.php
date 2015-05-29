@@ -1,6 +1,6 @@
 <?php
 
-$this->beginContent('//layouts/main');
+$this->beginContent('//layouts//main');
 ?>
 <div class="row">
     <div class="span10">
