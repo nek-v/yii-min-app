@@ -1,15 +1,15 @@
 <?php
 
-return array(
+return [
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'Base App',
-    'preload' => array(),
+    'preload' => ['log'],
     'defaultController' => 'site',
-    'aliases' => array(
+    'aliases' => [
         'bootstrap' => realpath(__DIR__ . '/../vendor/crisu83/yiistrap'),
         'vendor'    => realpath(__DIR__ . '/../vendor')
-    ),
-    'import' => array(
+    ],
+    'import' => [
         'application.actions.*',
         'application.models.*',
         'application.forms.*',
@@ -17,5 +17,5 @@ return array(
         'bootstrap.helpers.*',
         'bootstrap.behaviors.*',
         'bootstrap.widgets.*',
-    ),
-);
+    ]
+];

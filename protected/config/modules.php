@@ -1,11 +1,12 @@
 <?php
 
-return array(
-    'modules' => array(
-        'gii' => array(
+return [
+    'modules' => [
+        'gii' => [
             'class' => 'system.gii.GiiModule',
             'password' => 'password',
-            'ipFilters' => array('127.0.0.1', '::1'),
-            'generatorPaths' => array('bootstrap.gii'),
-        )
-));
+            'ipFilters' => ['127.0.0.1', '::1'],
+            'generatorPaths' => ['bootstrap.gii'],
+        ]
+    ]
+];

@@ -3,11 +3,12 @@
 class ErrorController extends Controller {
 
     public function actions() {
-        return array(
-            'index' => array(
-                'class' => 'ErrorIndexAction'
-            )
-        );
+        return [
+            'index' => [
+                'class' => 'ErrorIndexAction',
+                'view'  => 'index'
+            ]
+        ];
     }
 
 }

@@ -1,6 +1,6 @@
 <?php
 
-$this->beginContent('//layouts/main');
+$this->beginContent('//layouts//main');
 ?>
 <div id="content">
     <?php echo $content; ?>

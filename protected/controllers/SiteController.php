@@ -3,11 +3,12 @@
 class SiteController extends Controller {
 
     public function actions() {
-        return array(
-            'index' => array(
-                'class' => 'SiteIndexAction'
-            )
-        );
+        return [
+            'index' => [
+                'class' => 'SiteIndexAction',
+                'view'  => 'index'
+            ]
+        ];
     }
 
 }
