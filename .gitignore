@@ -2,8 +2,6 @@ assets/*
 !assets/.gitignore
 protected/runtime/*
 !protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
 protected/vendor/*
 protected/vendor/.gitignore
 nbproject/*
