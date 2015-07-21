@@ -8,6 +8,7 @@
             "email": "nek@srez.org"
         }
     ],
+    "license": "MIT",
     "type": "project",
     "minimum-stability": "stable",
     "require": {

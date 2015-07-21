@@ -12,5 +12,5 @@ Minimum starting applications on Yii
 
 ## Usage
 ```bash
-composer crate-project nek-v/yii-min-app test.local
+composer create-project nek-v/yii-min-app test.local
 ```
