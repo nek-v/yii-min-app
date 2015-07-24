@@ -5,7 +5,7 @@ class Controller extends CController {
     /**
      * @var array
      */
-    public $breadcrumb = [];
+    public $breadcrumbs = [];
     
     /**
      * @var string
